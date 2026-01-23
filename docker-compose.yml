@@ -1,0 +1,32 @@
+services:
+  # Banco de Dados com suporte a Vetores
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: doc-vault-db
+    restart: always
+    environment:
+      POSTGRES_USER: user_admin
+      POSTGRES_PASSWORD: secret_password
+      POSTGRES_DB: doc_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infra/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # Sistema de Autenticação
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: doc-vault-auth
+    command: start-dev
+    restart: always
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
