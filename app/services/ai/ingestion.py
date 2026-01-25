@@ -3,6 +3,7 @@ import uuid
 from sqlalchemy.orm import Session
 from app.core.database import SessionLocal
 from app.models.schemas import Document
+from app.services.ai.tools import extract_text_from_pdf
 
 async def process_document_mock(doc_id: uuid.UUID, file_path: str):
     """
@@ -18,6 +19,11 @@ async def process_document_mock(doc_id: uuid.UUID, file_path: str):
         if not document:
             print("❌ IA: Documento não encontrado no banco.")
             return
+        
+        print(f"📖 IA: Lendo arquivo físico: {file_path}")
+        
+        # Extrai o texto real
+        raw_text = extract_text_from_pdf(file_path)
 
         # Simulação do processamento pesado da IA
         await asyncio.sleep(5) 
