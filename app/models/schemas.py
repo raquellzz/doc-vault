@@ -28,6 +28,7 @@ class Document(Base):
 
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     filename = Column(String, nullable=False)
+    file_path = Column(String, nullable=True)
     # Status: pending (upload feito), processing (ia lendo), active (pronto), error
     status = Column(String, default="pending") 
     total_chunks = Column(Integer, default=0)

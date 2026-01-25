@@ -12,6 +12,7 @@ dependencies = [
     "langchain-postgres>=0.0.16",
     "pgvector>=0.3.6",
     "psycopg2-binary>=2.9.11",
+    "pymupdf>=1.26.7",
     "pypdf>=6.6.0",
     "python-dotenv>=1.2.1",
     "python-jose[cryptography]>=3.5.0",
