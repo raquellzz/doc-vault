@@ -30,25 +30,62 @@ def sync_user_to_db(token_user: TokenUser, db: Session) -> UserModel:
     
     determined_role = "admin" if "admin" in token_user.roles else "viewer"
     
-    if not db_user:
-        # Cria novo usuário
-        new_user = UserModel(
-            id=uuid.UUID(token_user.id),
-            email=token_user.username, 
-            full_name=token_user.username,
-            role=determined_role 
-        )
-        db.add(new_user)
-        db.commit()
-        db.refresh(new_user)
-        return new_user
-    else:
+    if db_user:
+        # Usuário existe e ID bate. Só atualiza role se precisar.
         if db_user.role != determined_role:
             db_user.role = determined_role
             db.commit()
             db.refresh(db_user)
-            
         return db_user
+
+    # 2. Se não achou pelo ID, verifica se existe pelo EMAIL (Cenário "Zumbi")
+    # Isso resolve o seu erro de UniqueViolation
+    existing_user_by_email = db.query(UserModel).filter(UserModel.email == token_user.username).first()
+
+    if existing_user_by_email:
+        print(f"⚠️ CONFLITO DETECTADO: Email {token_user.username} existe com ID antigo.")
+        print(f"♻️ Atualizando ID de {existing_user_by_email.id} para {token_user.id}")
+        
+        # Opção A: Atualizar o ID do registro existente (Mantém os documentos!)
+        # Nota: Isso é delicado em SQL, mas o SQLAlchemy tenta gerenciar.
+        # Se der erro aqui futuramente, a Opção B é deletar o antigo e criar um novo.
+        existing_user_by_email.id = uuid.UUID(token_user.id)
+        existing_user_by_email.role = determined_role
+        
+        db.commit()
+        db.refresh(existing_user_by_email)
+        return existing_user_by_email
+
+    # 3. Se não existe nem por ID nem por Email, cria do zero
+    new_user = UserModel(
+        id=uuid.UUID(token_user.id),
+        email=token_user.username,
+        full_name=token_user.username,
+        role=determined_role 
+    )
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    return new_user
+    # if not db_user:
+    #     # Cria novo usuário
+    #     new_user = UserModel(
+    #         id=uuid.UUID(token_user.id),
+    #         email=token_user.username, 
+    #         full_name=token_user.username,
+    #         role=determined_role 
+    #     )
+    #     db.add(new_user)
+    #     db.commit()
+    #     db.refresh(new_user)
+    #     return new_user
+    # else:
+    #     if db_user.role != determined_role:
+    #         db_user.role = determined_role
+    #         db.commit()
+    #         db.refresh(db_user)
+            
+    #     return db_user
 
 async def get_current_user(token: str = Depends(oauth2_scheme)) -> UserModel:
     token_user_data = validate_token_with_keycloak(token)
