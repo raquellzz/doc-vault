@@ -31,39 +31,37 @@ def sync_user_to_db(token_user: TokenUser, db: Session) -> UserModel:
     db_user = db.query(UserModel).filter(UserModel.id == token_user.id).first()
 
     determined_role = "admin" if "admin" in token_user.roles else "viewer"
-
-    if not db_user:
-        # Fallback: check by email to avoid UniqueViolation
-        db_user = (
-            db.query(UserModel).filter(UserModel.email == token_user.username).first()
-        )
-
-        if db_user:
-            # User exists but ID doesn't match token. We use the existing DB user.
-            if db_user.role != determined_role:
-                db_user.role = determined_role
-                db.commit()
-                db.refresh(db_user)
-            return db_user
-
-        # Create new user
-        new_user = UserModel(
-            id=uuid.UUID(token_user.id),
-            email=token_user.username,
-            full_name=token_user.username,
-            role=determined_role,
-        )
-        db.add(new_user)
-        db.commit()
-        db.refresh(new_user)
-        return new_user
-    else:
+    
+    if db_user:
         if db_user.role != determined_role:
             db_user.role = determined_role
             db.commit()
             db.refresh(db_user)
-
         return db_user
+
+    existing_user_by_email = db.query(UserModel).filter(UserModel.email == token_user.username).first()
+
+    if existing_user_by_email:
+        print(f"⚠️ CONFLITO DETECTADO: Email {token_user.username} existe com ID antigo.")
+        print(f"♻️ Atualizando ID de {existing_user_by_email.id} para {token_user.id}")
+        
+        existing_user_by_email.id = uuid.UUID(token_user.id)
+        existing_user_by_email.role = determined_role
+        
+        db.commit()
+        db.refresh(existing_user_by_email)
+        return existing_user_by_email
+
+    new_user = UserModel(
+        id=uuid.UUID(token_user.id),
+        email=token_user.username,
+        full_name=token_user.username,
+        role=determined_role 
+    )
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    return new_user
 
 
 async def get_current_user(token: str = Depends(oauth2_scheme)) -> UserModel:
