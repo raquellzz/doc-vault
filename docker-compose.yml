@@ -18,14 +18,22 @@ services:
   keycloak:
     image: quay.io/keycloak/keycloak:latest
     container_name: doc-vault-auth
-    command: start-dev
+    command: start-dev --import-realm
     environment:
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
       KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+      # KC_DB: postgres
+      # KC_DB_URL: jdbc:postgresql://postgres:5432/doc_db
+      # KC_DB_USERNAME: user_admin
+      # KC_DB_PASSWORD: secret_password
+      # KEYCLOAK_ADMIN: admin
+      # KEYCLOAK_ADMIN_PASSWORD: admin
     ports:
       - "8080:8080"
     depends_on:
       - db
+    volumes:
+      - ./infra/realm-export.json:/opt/keycloak/data/import/realm.json
 
 volumes:
   postgres_data:
