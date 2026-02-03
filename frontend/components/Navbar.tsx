@@ -28,7 +28,6 @@ export function Navbar() {
     const isAdmin = session?.roles?.includes("admin");
 
     const navItems = [
-        { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard, requiredRole: "viewer" }, // Todos acessam
         { href: "/dashboard/chat", label: "Chat IA", icon: Bot, requiredRole: "viewer" },
         { href: "/dashboard/documents", label: "Documentos", icon: FileText, requiredRole: "admin" }, 
     ];

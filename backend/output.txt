@@ -1,883 +1,293 @@
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
  
- 
-PROCESSO SELETIVO SIMPLIFICADO UNIFICADO Nº 01/2026 
-Projetos Embrapii - Gotiva e Zaori 
- 
-PROCESSO SELETIVO PARA BOLSISTAS DE GRADUAÇÃO, PÓS-GRADUAÇÃO E 
-ESPECIALISTA CONVIDADO 
- 
-O Instituto Metrópole Digital (IMD), Unidade Acadêmica Especializada da 
-Universidade Federal do Rio Grande do Norte (UFRN), torna público o presente Edital, 
-que normatiza o processo seletivo para bolsistas de graduação com vistas a atuar 
-nos seguintes projetos desenvolvidos em parceria com as empresas GOTIVA e 
-ZAORI para os seguintes projetos, respectivamente: GovIA: Inteligência Artificial 
-Integrada para Otimização de Processos e Análise Documental e Serviços Urbanos 
-Inteligentes: Dashboards Integrados e Computação na Borda. Os selecionados, 
-quando convocados, atuarão para atender os objetivos dos projetos acima 
-mencionados. 
-1.​
-DAS DISPOSIÇÕES PRELIMINARES 
-1.1.​
-O presente Processo Seletivo destina-se à seleção de bolsista de 
-graduação, pós-graduação e especialista convidado nos projetos 
-GovIA: Inteligência Artificial Integrada para Otimização de Processos e 
-Análise Documental e Serviços Urbanos Inteligentes: Dashboards 
-Integrados e Computação na Borda. 
-1.2.​
-O presente Processo Seletivo tem a validade de 8 (oito) meses 
-contados a partir da data de publicação da ata de resultado final, 
-podendo ser prorrogado por igual período. 
- 
-2.​
-DAS VAGAS E DAS BOLSAS 
+MINISTÉRIO DA EDUCAÇÃO 
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE 
+SECRETARIA DE RELAÇÕES INTERNACIONAIS 
+COORDENAÇÃO DE MOBILIDADE ACADÊMICA INTERNACIONAL 
  
  
  
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
+EDITAL 02/2025 - SRI/UFRN 
+RESULTADO PRELIMINAR - Chamada 2026.1 
  
+ 
+Prezados alunos, 
+A alocação dos estudantes foi realizada considerando as opções indicadas no momento da inscrição e o número de vagas disponibilizadas por 
+cada instituição estrangeira. 
+CRONOGRAMA 
+19/08 – Divulgação do resultado preliminar​
+20 e 21/08 – Período para interposição de recursos 
+22/08 – Divulgação do resultado final​
+26/08 – Sessão Informativa - Tira- Dúvidas com selecionados e suplentes (obrigatório) 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Matrícula 
+% IEAN melhor do curso 
+Universidade de Destino 
+Status da Inscrição 
+Observação 
+20250004041 
+0,00% 
+UNIVERSIDADE DE 
+COIMBRA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20250040950 
+0,86% 
+UNIVERSIDADE DE 
+COIMBRA 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20250041457 
+1,04% 
+UNIVERSIDADE DE 
+COIMBRA 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20230074880 
+2,53% 
+L' INSTITUT NATIONAL 
+DES SCIENCES 
+APPLIQUÉES DE ROUEN 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20230017641 
+2,54% 
+UNIVERSIDADE DE 
+LISBOA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20240013860 
+2,80% 
+UNIVERSIDADE DE 
+COIMBRA 
+DEFERIDO 
+Candidato Suplente - Deve 
+comparecer a reunião de 
+selecionados 
+20250000169 
+3,76% 
+UNIVERSIDADE DO 
+MINHO 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20230048890 
+4,60% 
+UNIVERSITÉ CLERMONT 
+AUVERGNE 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20240004155 
+4,76% 
+INSTITUTO POLITÉCNICO 
+DE BRAGANÇA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20230018273 
+6,85% 
+INSTITUTO POLITECNICO 
+DE BRAGANÇA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20230034070 
+7,49% 
+FACULTY OF SCIENCE 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
 
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
+ 
  
-2.1.​
-Serão ofertadas 8 (oito) vagas, bem como formado cadastro reserva 
-com os(as) candidatos(as) aprovados(as) fora das vagas, visando a 
-ocupação de outras eventuais que surgirem dentro da validade do 
-certame, 
-sendo 
-possível 
-o 
-aproveitamento 
-dos 
-aprovados, 
-respeitando-se a ordem de classificação. A(s) vaga(s) serão 
-distribuída(s) da seguinte maneira: 
-2.1.1.​
-02 vagas + cadastro de reserva para o perfil 01: bolsista de 
-graduação, perfil Inteligência Artificial.  
-2.1.2.​
-02 vagas + cadastro de reserva para o perfil 02: bolsista de 
-graduação, perfil fullstack.  
-2.1.3.​
-01 vaga + cadastro de reserva para o perfil 03: bolsista de 
-graduação, perfil  Backend Pleno. 
-2.1.4.​
-01 vaga + cadastro de reserva para o perfil 04: bolsista de 
-graduação, perfil devops. 
-2.1.5.​
-01 vaga + cadastro de reserva para o perfil 05: bolsista de 
-pós-graduação, perfil Inteligência Artificial. 
-2.1.6.​
-01 vaga + cadastro de reserva para o perfil 06: especialista 
-convidado, perfil Devops. 
-2.1.7.​
-Os valores das bolsas e seus respectivos pré-requisitos estão 
-dispostos no Anexo I deste edital. 
- 
-3.​
-DOS REQUISITOS E ATIVIDADES 
-3.1.​
-Para participar do processo seletivo, o(a) candidato(a) deverá: 
-3.1.1.​
-Atender aos pré-requisitos dispostos no Anexo I deste edital.  
-3.2.​
-As atividades a serem desenvolvidas pelo(a) bolsista estão listadas na 
-tabela do Anexo I.  
- 
-4.​
-DA VEDAÇÃO 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
+AND TECHNOLOGY - 
+UNIVERSITY OF 
+STAVANGER 
+20240008430 
+7,59% 
+UNIVERSIDADE 
+SANTIAGO DE 
+COMPOSTELA  
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20240010134 
+9,17% 
+UNIVERSITAT MUNSTER 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20250035440 
+10,19% 
+UNIVERSITAT MUNSTER 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20230070756 
+10,87% 
+L' INSTITUT NATIONAL 
+DES SCIENCES 
+APPLIQUÉES DE ROUEN 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20240037138 
+11,98% 
+UNIVERSIDADE DE 
+LISBOA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20230026776 
+12,77% 
+UNIVERSITÀ DEGLI STUDI 
+DI PARMA 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20220010905 
+17,86% 
+INSTITUTO POLITÉCNICO 
+DE BRAGANÇA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20220011161 
+18,49% 
+INSTITUTO POLITÉCNICO 
+DE BRAGANÇA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20240046988 
+19,27% 
+UNIVERSIDADE DE 
+COIMBRA 
+DEFERIDO 
+Candidato Suplente - Deve 
+comparecer a reunião de 
+selecionados 
+20230022187 
+26,00% 
+UNIVERSITÉ DE 
+TECHNOLOGIE DE 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
 
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
+ 
  
-4.1.​
-Para os fins do art. 33 da Resolução 001/2022 - CONSAD ficam 
-vedadas: 
-4.1.1.​
-A concessão de bolsas para o cumprimento de atividades 
-regulares de magistério de graduação e pós-graduação;  
-4.1.2.​
-A concessão de bolsas a servidores a título de retribuição pelo 
-desempenho de funções comissionadas;  
-4.1.3.​
-A concessão de bolsas a servidores técnico-administrativos a 
-título 
-de 
-retribuição 
-pelo 
-desempenho 
-de 
-atividades 
-administrativas inerentes ao cargo; 
-4.1.4.​
-A concessão de bolsas a servidores pela participação nos 
-conselhos das Fundações de Apoio; 
-4.1.5.​
-A cumulatividade do pagamento da Gratificação por Encargo de 
-Curso e Concurso, de que trata o art. 76-A da Lei no 8.112/90 
-com a concessão de bolsas para a mesma atividade;  
-4.1.6.​
-A concessão de bolsas a cônjuge, companheiro ou parente em 
-linha reta, colateral ou por afinidade do coordenador e 
-vice-coordenador do projeto (Súmula Vinculante STF no 13).  
-4.2.​
-Os(as) candidatos(as) Servidores da UFRN devem observar se a soma 
-de todos os valores a título de remuneração, bolsas, retribuições 
-pecuniárias, pensão, proventos de aposentadoria, salário ou qualquer 
-outra espécie remuneratória fica abaixo do limite previsto no Art. 37, XI 
-da Constituição Federal de 1988, conforme determina o Art. 30 §1° da 
-Resolução 001/2022- CONSAD e o Art. 7° §4° do Decreto 7423/2010.  
-4.3.​
-Os(as) candidatos(as) Servidores da UFRN devem se limitar em 
-atividades remuneradas com bolsas de pesquisa, ensino e extensão a 
-30 (trinta) horas semanais. São também contabilizadas para este 
-limite a carga horária dedicada às atividades remuneradas com 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
+COMPIÈGNE 
+20200004633 
+26,02% 
+INSTITUTO POLITÉCNICO 
+DE BRAGANÇA 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20230027871 
+26,18% 
+ÉCOLE DES INGÉNIEURS 
+DE LAVILLE DE PARIS 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20220056780 
+27,04% 
+FACULTY OF SCIENCE 
+AND TECHNOLOGY - 
+UNIVERSITY OF 
+STAVANGER 
+DEFERIDO 
+Candidato Suplente 
+20250063113 
+38,60% 
+UNIVERSIDAD 
+COMPLUTENSE DE 
+MADRID 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20230017436 
+39,70% 
+UNIVERSIDADE DE 
+COIMBRA 
+DEFERIDO 
+Candidato Suplente - Deve 
+comparecer a reunião de 
+selecionados 
+20230086611 
+42,55% 
+UNIVERSIDAD DE 
+MÁLAGA 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20220030846 
+50,26% 
+UNIVERSIDADE DO 
+MINHO 
+DEFERIDO 
+Aluno classificado na 2º 
+opção 
+20230072670 
+51,01% 
+UNIVERSIDAD 
+COMPLUTENSE DE 
+MADRID 
+DEFERIDO 
+Aluno classificado na 1º 
+opção 
+20230023729 
+73,76% 
+UNIVERSIDADE DE 
+COIMBRA 
+INDEFERIDO 
+Inscrição indeferida de 
+acordo com o item 3.1.2 do 
+edital 
 
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
+ 
  
-retribuições pecuniárias. (Art. 28 §1ºe §2º Resolução 001/2022 – 
-CONSAD).  
-4.4.​
-Além das vedações descritas nos itens anteriores, devem ser 
-observadas, também, as normas contidas nas legislações vigentes.  
+20220051588 
+94,78% 
+UNIVERSIDADE DE 
+COIMBRA 
+INDEFERIDO 
+Inscrição indeferida de 
+acordo com o item 3.1.2 do 
+edital 
+20230086872 
+- 
+UNIVERSIDADE 
+FERNANDO PESSOA 
+INDEFERIDO 
+Inscrição indeferida. 
+Documentação incompleta 
  
-5.​
-DAS INSCRIÇÕES 
-5.1.​
-As inscrições estarão abertas no período de 29 de janeiro de 2026 a 
-04 de fevereiro de 2026 e deverão ser efetuadas pelo candidato 
-mediante o envio de informações através do preenchimento do 
-formulário no endereço https://forms.gle/Fe1kyUmuQnYR4ds77. Caso 
-o aluno queira se candidatar a mais de uma vaga, é necessário 
-preencher o formulário mais de uma vez, sendo uma para cada vaga 
-pretendida. É mandatório anexar os seguintes documentos: CV, CV 
-Lattes, histórico escolar (caso aluno). 
-5.2.​
-A responsabilidade pela qualidade dos documentos é do(a) 
-candidato(a), não nos responsabilizamos por arquivos corrompidos ou 
-eventuais inelegibilidades.  
-5.3.​
-O 
-fornecimento 
-de 
-informações 
-inverídicas 
-implicará 
-a 
-desclassificação automática do(a) candidato(a).  
-5.4.​
-Em hipótese nenhuma, os funcionários, colaboradores ou canais de 
-contato da fundação FUNPEC fornecerão informações sobre o 
-processo seletivo, como datas, locais e horários das realizações das 
-etapas 
-5.5.​
-Os(as) candidatos(as) são responsáveis pelos conhecimentos das 
-normas do edital, bem como pelo acompanhamento do andamento 
-deste 
-processo 
-seletivo 
-por 
-meio 
-do 
-endereço 
-eletrônico: 
-https://portal.imd.ufrn.br/portal/editais.  
-5.6.​
-As inscrições são gratuitas. 
  
  
  
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
+Natal, 19 de agosto de 2025 
  
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
  
  
-6.​
-DO PROCESSO SELETIVO 
-6.1.​
-O processo seletivo será conduzido pela Comissão Examinadora 
-designada pela coordenação do projeto.  
-6.2.​
-O processo seletivo será realizado em duas etapas: (1) Homologação 
-das inscrições; (2) Análise curricular e (3) entrevista. 
-6.3.​
-Na homologação das inscrições, a Comissão Examinadora realizará a 
-conferência da documentação exigida, sendo aprovados nessa etapa 
-os(as) candidatos(as) com a documentação completa e com perfil 
-considerado adequado para o cargo.  
-6.4.​
-A data provável para divulgação da listagem dos(as) candidatos(as) 
-que possuírem as inscrições homologadas será 05 de fevereiro de 
-2026.  
-6.5.​
-A análise curricular e entrevista avaliará os requisitos dispostos no 
-Anexo I deste edital, bem como as potencialidades dos(as) 
-candidatos(as), com questões que versam sobre seus conhecimentos, 
-habilidades e atitudes.  
-6.6.​
-As entrevistas dos(as) candidatos(as) serão realizadas em dia e 
-horário a serem definidos pela Comissão Examinadora. A comissão 
-examinadora 
-entrará 
-em 
-contato 
-com os(as) candidatos(as) 
-aprovados para a fase de entrevista por correio eletrônico (e-mail), 
-fornecido no ato da inscrição.  
  
-7.​
-DO RESULTADO FINAL 
-7.1.​
-A classificação dos candidatos será realizada de acordo com a média 
-das notas alcançadas na fase de análise de currículo e entrevista, 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-sendo considerados aprovados aqueles que obtiverem nota maior ou 
-igual a 7,0 (sete).  
-7.1.1.​
-Em caso de empate, dar-se-á prioridade ao candidato que tiver 
-maior tempo de experiência em projetos na área; 
-7.2.​
-O resultado final com a classificação será divulgado na data provável 
-de 
-12 
-de 
-fevereiro 
-de 
-2026, 
-no 
-portal 
-do 
-IMD 
-https://portal.imd.ufrn.br/. 
- 
-8.​
-DA CONVOCAÇÃO 
-8.1.​
-Os candidatos aprovados no processo seletivo serão convocados na 
-ordem de classificação, observando o número de vagas, a vigência do 
-presente edital, e os critérios de classificação.  
- 
-9.​
-DAS DISPOSIÇÕES FINAIS 
-9.1.​
-Os candidatos selecionados e em cadastro de reserva deste edital 
-podem ser aproveitados em outros projetos, desde que obedecidas as 
-mesmas características da vaga mediante justificativa do coordenador 
-do projeto e demonstrado o não prejuízo ao direito de outros 
-candidatos selecionados.  
-9.2.​
-Os casos não contemplados neste edital serão resolvidos mediante 
-deliberação da comissão de seleção.  
-9.3.​
-Para informações adicionais, contatar fred@imd.ufrn.br.  
- 
-Natal/RN, 29 de janeiro de 2026 
- 
-Frederico Araujo da Silva Lopes 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Matrícula SIAPE nº 2510306 
- 
-Daniel Sabino Amorim de Araújo 
-Matrícula SIAPE nº 1669545 
-Coordenadores dos Projetos  
- 
- 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-ANEXO I 
- 
-PERFIL 1 - Graduação: Inteligência Artificial 
-Tipo de bolsa 
-Bolsa de graduação 
-Número de vagas 
-02 
-Cadastro de reserva 
-Sim 
-Carga horária semanal 
-30h 
-Vaga exclusiva para pessoas da 
-UFRN 
-Sim 
-Remuneração mensal 
-R$ 3.000,00 
-Turno de trabalho 
-Matutino 
-Modalidade de trabalho 
-Presencial 
-Duração da bolsa 
-6 meses (prorrogável) 
-Formação necessária 
-Graduação em andamento na área da 
-Computação ou afins. 
-Requisitos básicos 
-Ser organizado, proativo, ter bom 
-relacionamento interpessoal, responsabilidade 
-e postura profissional.  
-Conhecimentos necessários 
-Competências e habilidades: Conhecimentos em 
-visão computacional, processamento de linguagem 
-natural, aprendizado profundo e manipulação de 
-dados multimodais. Noções com modelos de 
-descrição de imagens (VLMs), grandes modelos de 
-linguagem (LLMs) e sistemas multi-agentes. 
-Habilidades em programação com Python, 
-utilizando bibliotecas como TensorFlow, PyTorch, 
-OpenCV, Hugging Face e LangChain. Conhecimento  
-Experiência no desenvolvimento de APIs. 
-Conhecimentos em ferramentas de anotação de 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-vídeo e texto, versionamento de código com Git, e 
-experiência com frameworks e bibliotecas 
-adicionais, como scikit-learn. 
- 
-Desejáveis: Experiência no uso de APIs como 
-Google Cloud Vision e OpenAI API.  Experiência 
-com modelos multimodais e construção de 
-aplicações utilizando RAG. 
-Principais atividades a serem 
-executadas 
-Atividades de pesquisa e desenvolvimento de 
-software no referido projeto. 
-Documentos exigidos 
-●​ Histórico acadêmico 
-●​ Currículo Lattes 
-●​ Curriculum Vitae 
- 
- 
-PERFIL 2 - Graduação: Fullstack 
-Tipo de bolsa 
-Bolsa de graduação 
-Número de vagas 
-02 
-Cadastro de reserva 
-Sim 
-Carga horária semanal 
-30h 
-Vaga exclusiva para pessoas da 
-UFRN 
-Não 
-Remuneração mensal 
-R$ 3.000,00 
-Turno de trabalho 
-Matutino 
-Modalidade de trabalho 
-Presencial 
-Duração da bolsa 
-6 meses (prorrogável) 
-Formação necessária 
-Graduação em andamento na área da 
-Computação ou afins. 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Requisitos básicos 
-Ser organizado, proativo, ter bom 
-relacionamento interpessoal, responsabilidade 
-e postura profissional.  
-Conhecimentos necessários 
-Competências e habilidades: Experiência com 
-desenvolvimento de software com tecnologia Java, 
-Spring Boot e Spring WEB MVC;   ​
-Conhecimentos de HTML, CSS, JavaScript e tecnologias 
-relacionadas. Conhecimentos em experiência e a 
-interface do usuário, testes de software. Habilidades 
-com ferramentas de testes funcionais unitários e 
-integrados. ​
-​
-Desejáveis: JSF ou Single Page Application; Docker; Git e 
-Django e tecnologias relacionadas.​
-Selenium, Cypress, JMeter, Junit, Postman, Git, React, 
-Next.js ou tecnologias relacionadas. 
-Principais atividades a serem 
-executadas 
-Atividades de pesquisa e desenvolvimento de 
-software no referido projeto. 
-Documentos exigidos 
-●​ Histórico acadêmico 
-●​ Currículo Lattes 
-●​ Currículo Vitae 
- 
- 
-PERFIL 3 - Graduação:  Backend Pleno 
-Tipo de bolsa 
-Bolsa de graduação 
-Número de vagas 
-01 
-Cadastro de reserva 
-Sim 
-Carga horária semanal 
-30h 
-Vaga exclusiva para pessoas da 
-UFRN 
-Não 
-Remuneração mensal 
-R$ 3.500,00 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Turno de trabalho 
-Matutino 
-Modalidade de trabalho 
-Presencial 
-Duração da bolsa 
-6 meses (prorrogável) 
-Formação necessária 
-Graduação em andamento na área da 
-Computação ou afins. 
-Requisitos básicos 
-Ser organizado, proativo, ter bom 
-relacionamento interpessoal, responsabilidade 
-e postura profissional.  
-Conhecimentos necessários 
-Competências e habilidades: Experiência com 
-desenvolvimento de software com tecnologia Java, 
-Spring Boot e Spring WEB MVC;   ​
-​
-Desejáveis: JSF ou Single Page Application; Docker; Git e 
-Django e tecnologias relacionadas.​
- 
-Principais atividades a serem 
-executadas 
-Atividades de pesquisa e desenvolvimento de 
-software no referido projeto. 
-Documentos exigidos 
-●​ Histórico acadêmico 
-●​ Currículo Lattes 
-●​ Currículo Vitae 
- 
-PERFIL 4 - Graduação: Devops 
-Tipo de bolsa 
-Bolsa de graduação 
-Número de vagas 
-01 
-Cadastro de reserva 
-Sim 
-Carga horária semanal 
-30h 
-Vaga exclusiva para pessoas da 
-UFRN 
-Sim 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Remuneração mensal 
-R$ 3.000,00 
-Turno de trabalho 
-Matutino 
-Modalidade de trabalho 
-Presencial 
-Duração da bolsa 
-6 meses (prorrogável) 
-Formação necessária 
-Graduação em andamento na área da 
-Computação ou afins. 
-Requisitos básicos 
-Ser organizado, proativo, ter bom 
-relacionamento interpessoal, responsabilidade 
-e postura profissional.  
-Conhecimentos necessários 
-Competências e habilidades: Conhecimentos de Linux, 
-Deploy de aplicações usando pipelines, ferramentas de 
-automação de infraestrutura como código e correlatos. 
-Desejáveis: Git, Linux, containers 
-(Docker/Kubernetes/etc.), ferramentas de IaC 
-(Terraform/Ansible/etc.), ferramentas de CI/CD 
-(ArgoCD/Gitlab CI/Github Actions/etc.) e tecnologias 
-relacionadas. 
-Principais atividades a serem 
-executadas 
-Atividades de pesquisa e desenvolvimento de 
-software no referido projeto. 
-Documentos exigidos 
-●​ Histórico acadêmico 
-●​ Currículo Lattes 
-●​ Currículo Vitae 
- 
-PERFIL 5 - Pós-graduação: Inteligência Artificial 
-Tipo de bolsa 
-Bolsa de pós-graduação 
-Número de vagas 
-01 
-Cadastro de reserva 
-Sim 
-Carga horária semanal 
-30h 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Vaga exclusiva para pessoas da 
-UFRN 
-Sim 
-Remuneração mensal 
-R$ 4.080,00 
-Turno de trabalho 
-Matutino 
-Modalidade de trabalho 
-Presencial 
-Duração da bolsa 
-6 meses (prorrogável) 
-Formação necessária 
-Pós-graduação em andamento na área da 
-Computação ou afins. 
-Requisitos básicos 
-Ser organizado, proativo, ter bom 
-relacionamento interpessoal, responsabilidade 
-e postura profissional.  
-Conhecimentos necessários 
-Competências e habilidades: Conhecimentos em 
-visão computacional, processamento de linguagem 
-natural, aprendizado profundo e manipulação de 
-dados multimodais. Noções com modelos de 
-descrição de imagens (VLMs), grandes modelos de 
-linguagem (LLMs) e sistemas multi-agentes. 
-Habilidades em programação com Python, 
-utilizando bibliotecas como TensorFlow, PyTorch, 
-OpenCV, Hugging Face e LangChain. Conhecimento  
-Experiência no desenvolvimento de APIs. 
-Conhecimentos em ferramentas de anotação de 
-vídeo e texto, versionamento de código com Git, e 
-experiência com frameworks e bibliotecas 
-adicionais, como scikit-learn. Liderança de equipes 
-para o desenvolvimento de pesquisa e soluções. 
- 
-Desejáveis: Experiência no uso de APIs como 
-Google Cloud Vision e OpenAI API.  Experiência 
-com modelos multimodais e construção de 
-aplicações utilizando RAG. 
-Principais atividades a serem 
-executadas 
-Atividades de pesquisa e desenvolvimento de 
-software no referido projeto. 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Documentos exigidos 
-●​ Histórico acadêmico 
-●​ Currículo Lattes 
-●​ Currículo Vitae 
- 
-PERFIL 6 - Especialista convidado: Devops 
-Tipo de bolsa 
-Especialista convidado 
-Número de vagas 
-01 
-Cadastro de reserva 
-Sim 
-Carga horária semanal 
-30h 
-Vaga exclusiva para pessoas da 
-UFRN 
-Não 
-Remuneração mensal 
-R$ 4.080,00 
-Turno de trabalho 
-Matutino 
-Modalidade de trabalho 
-Presencial 
-Duração da bolsa 
-6 meses (prorrogável) 
-Formação necessária 
-Graduação concluída na área da Computação 
-ou afins. 
-Requisitos básicos 
-Ser organizado, proativo, ter bom 
-relacionamento interpessoal, responsabilidade 
-e postura profissional.  
-Conhecimentos necessários 
-Competências e habilidades: Conhecimentos de Linux, 
-Deploy de aplicações usando pipelines, ferramentas de 
-automação de infraestrutura como código e correlatos. 
-Desejáveis: Git, Linux, containers 
-(Docker/Kubernetes/etc.), ferramentas de IaC 
-(Terraform/Ansible/etc.), ferramentas de CI/CD 
-(ArgoCD/Gitlab CI/Github Actions/etc.) e tecnologias 
-relacionadas. 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-Principais atividades a serem 
-executadas 
-Atividades de pesquisa e desenvolvimento de 
-software no referido projeto. 
-Documentos exigidos 
-●​ Histórico acadêmico 
-●​ Currículo Lattes 
-●​ Currículo Vitae 
- 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
-ANEXO II - CRONOGRAMA DO PROCESSO SELETIVO 
- 
-CRONOGRAMA DA SELEÇÃO 
-Dia 
-Horário 
-Procedimento 
-Meio/Local 
-29/01/2026 
-A partir das 0h 
-Início das 
-inscrições 
-Formulário 
-04/02/2026 
-Até às 23h59 
-Fim das 
-inscrições 
-Formulário 
-05/02/2026 
-Até às 23h59 
-Homologação 
-das inscrições 
-Publicação no 
-Portal do IMD e 
-Notificação por 
-email 
-cadastrado  
-07/02/2026 
-Até às 23h59 
-Divulgação da 
-análise curricular 
-Publicação no 
-Portal do IMD e 
-Notificação por 
-email 
-cadastrado  
-09/02/2026 
-A combinar 
-Início da fase de 
-entrevistas 
-Videoconferênci
-a 
-11/02/2026 
-Até às 23h59 
-Final da fase de 
-entrevistas 
-Videoconferênci
-a 
-12/02/2026 
-Até às 23h59 
-Divulgação do 
-resultado do 
-processo 
-seletivo 
-Publicação no 
-Portal do IMD  
- 
-Ficou com alguma dúvida? 
-Entre em contato através dos e-mails fred@imd.ufrn.br e 
-daniel@imd.ufrn.br  
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
-
-MINISTÉRIO DA EDUCAÇÃO  
-UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE  
-INSTITUTO METRÓPOLE DIGITAL 
- 
- 
- 
-Siga o IMD nas redes sociais para  
-ficar por dentro de todos os editais: 
-  
-  
-  
-  
- 
- 
- 
- 
-Instituto Metrópole Digital | Centro Integrado de Vocação Tecnológica – CIVT  
-(84) 3342-2216 | www.imd.ufrn.br 
-  
-  
-  
-  
- 
+Viviane Fagundes Fernandes 
+Coordenação de Mobilidade Acadêmica Internacional 
+Secretaria de Relações Internacionais 
 
 
