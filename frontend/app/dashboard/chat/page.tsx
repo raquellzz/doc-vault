@@ -108,29 +108,6 @@ export default function ChatPage() {
     }
   };
 
-  // const handleDelete = async (e: React.MouseEvent, id: string) => {
-  //   e.stopPropagation();
-    
-  //   if (!confirm("Tem certeza que deseja apagar esta conversa?")) return;
-
-  //   try {
-  //     await api.delete(`/v1/conversations/${id}`);
-  //     const newList = conversations.filter(c => c.id !== id);
-  //     setConversations(newList);
-  //     toast.success("Conversa apagada.");
-
-  //     if (activeId === id) {
-  //       if (newList.length > 0) selectConversation(newList[0].id);
-  //       else {
-  //           setActiveId(null);
-  //           setMessages([]);
-  //       }
-  //     }
-  //   } catch (error) {
-  //     toast.error("Erro ao apagar conversa.");
-  //   }
-  // };
-
   const executeDelete = async (idToDelete: string) => {
     try {
       await api.delete(`/v1/conversations/${idToDelete}`);
@@ -209,15 +186,16 @@ export default function ChatPage() {
   }, [messages, loading]);
 
   return (
-    <div className="flex h-[calc(100vh-theme(spacing.24))] gap-4 max-w-7xl mx-auto p-4">
-      <aside className="w-72 flex flex-col gap-4 bg-white border rounded-lg p-4 shadow-sm h-full">
-        <Button onClick={handleNewChat} className="w-full bg-blue-600 hover:bg-blue-700 gap-2">
+    <div className="flex h-[calc(100vh-4rem)] gap-0 md:gap-4 max-w-7xl mx-auto md:p-4 transition-colors">
+      
+      <aside className="hidden md:flex w-72 flex-col gap-4 bg-white dark:bg-slate-950 border-r md:border dark:border-slate-800 md:rounded-2xl p-4 shadow-sm h-full transition-colors">
+        <Button onClick={handleNewChat} className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 gap-2 shadow-sm">
           <Plus size={16} /> Nova Conversa
         </Button>
 
-        <div className="flex-1 overflow-y-auto space-y-2 pr-2">
+        <div className="flex-1 overflow-y-auto space-y-2 pr-2 custom-scrollbar">
           {conversations.length === 0 && (
-            <p className="text-sm text-slate-400 text-center py-4">Nenhuma conversa anterior.</p>
+            <p className="text-sm text-slate-400 dark:text-slate-500 text-center py-4">Nenhuma conversa.</p>
           )}
           
           {conversations.map((chat) => (
@@ -225,46 +203,34 @@ export default function ChatPage() {
               key={chat.id}
               onClick={() => editingId !== chat.id && selectConversation(chat.id)}
               className={cn(
-                "group relative w-full p-3 rounded-md text-sm transition-colors border cursor-pointer flex items-center gap-2",
+                "group relative w-full p-3 rounded-xl text-sm transition-all border cursor-pointer flex items-center gap-2",
                 activeId === chat.id 
-                  ? "bg-blue-50 border-blue-200 text-blue-700 font-medium" 
-                  : "bg-slate-50 border-transparent hover:bg-slate-100 text-slate-600"
+                  ? "bg-blue-50 dark:bg-blue-950/50 border-blue-200 dark:border-blue-900 text-blue-700 dark:text-blue-300 font-medium shadow-sm" 
+                  : "bg-transparent border-transparent hover:bg-slate-100 dark:hover:bg-slate-900 text-slate-600 dark:text-slate-400"
               )}
             >
-              <MessageSquare size={16} className="shrink-0 opacity-70" />
+              <MessageSquare size={18} className={cn("shrink-0", activeId === chat.id ? "opacity-100" : "opacity-70")} />
 
               {editingId === chat.id ? (
                 <div className="flex items-center gap-1 w-full" onClick={(e) => e.stopPropagation()}>
                   <Input 
                     value={editTitle} 
                     onChange={(e) => setEditTitle(e.target.value)}
-                    className="h-7 text-xs px-1 py-0 bg-white"
+                    className="h-8 text-xs px-2 py-0 bg-white dark:bg-slate-900 dark:border-slate-700"
                     autoFocus
                   />
-                  <button onClick={saveTitle} className="text-emerald-600 hover:bg-emerald-100 p-1 rounded">
-                    <Check size={14} />
-                  </button>
-                  <button onClick={cancelEditing} className="text-red-500 hover:bg-red-100 p-1 rounded">
-                    <X size={14} />
-                  </button>
+                  <button onClick={saveTitle} className="text-emerald-600 hover:bg-emerald-100 dark:text-emerald-400 dark:hover:bg-emerald-950/50 p-1.5 rounded"><Check size={14} /></button>
+                  <button onClick={cancelEditing} className="text-red-500 hover:bg-red-100 dark:text-red-400 dark:hover:bg-red-950/50 p-1.5 rounded"><X size={14} /></button>
                 </div>
               ) : (
                 <>
                   <span className="truncate flex-1">{chat.title || "Sem título"}</span>
                   <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity bg-inherit">
-                    <button 
-                      onClick={(e) => startEditing(e, chat)}
-                      className="p-1.5 text-slate-400 hover:text-blue-600 hover:bg-blue-100 rounded"
-                      title="Renomear"
-                    >
-                      <Pencil size={12} />
+                    <button onClick={(e) => startEditing(e, chat)} className="p-1.5 text-slate-400 hover:text-blue-600 dark:hover:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/50 rounded" title="Renomear">
+                      <Pencil size={14} />
                     </button>
-                    <button 
-                      onClick={(e) => handleDeleteRequest(e, chat.id)}
-                      className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-100 rounded"
-                      title="Apagar"
-                    >
-                      <Trash2 size={12} />
+                    <button onClick={(e) => handleDeleteRequest(e, chat.id)} className="p-1.5 text-slate-400 hover:text-red-600 dark:hover:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/50 rounded" title="Apagar">
+                      <Trash2 size={14} />
                     </button>
                   </div>
                 </>
@@ -274,61 +240,76 @@ export default function ChatPage() {
         </div>
       </aside>
 
-
-      <main className="flex-1 flex flex-col bg-slate-50 border rounded-lg shadow-sm h-full overflow-hidden">
-        <div className="p-4 border-b bg-white flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <Bot className="text-emerald-600" /> 
-            <span className="font-semibold text-slate-700">Assistente IA</span>
+      <main className="flex-1 flex flex-col bg-white dark:bg-slate-900 md:border dark:border-slate-800 md:rounded-2xl shadow-sm h-full overflow-hidden transition-colors">
+        <div className="p-4 border-b dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm flex justify-between items-center z-10">
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 bg-emerald-100 dark:bg-emerald-950/50 rounded-lg flex items-center justify-center text-emerald-600 dark:text-emerald-400">
+                <Bot size={18} /> 
+            </div>
+            <div>
+                <h2 className="font-semibold text-slate-800 dark:text-slate-100 leading-none">Assistente IA</h2>
+                {activeId && <p className="text-xs text-slate-400 dark:text-slate-500 mt-1 font-mono">ID: {activeId.slice(0,8)}</p>}
+            </div>
           </div>
-          {activeId && <span className="text-xs text-slate-400">ID: {activeId.slice(0,8)}</span>}
         </div>
 
-        <div className="flex-1 overflow-y-auto p-6 bg-slate-50/50">
-          <div className="space-y-6"> 
+        <div className="flex-1 overflow-y-auto p-4 md:p-6 bg-slate-50 dark:bg-slate-950 dark:bg-dot-white/[0.05] bg-dot-black/[0.05]">
+          <div className="space-y-8 max-w-3xl mx-auto"> 
             {!activeId && (
-              <div className="flex flex-col items-center justify-center h-full text-slate-400 mt-20">
-                <Bot size={48} className="mb-4 opacity-20" />
-                <p>Selecione uma conversa ou inicie uma nova.</p>
+              <div className="flex flex-col items-center justify-center h-[60vh] text-slate-400 dark:text-slate-600">
+                <Bot size={64} className="mb-6 opacity-20" />
+                <p className="text-lg font-medium">Selecione uma conversa ou inicie uma nova.</p>
+                <p className="text-sm mt-2">Seus documentos estão prontos para serem analisados.</p>
               </div>
             )}
             {messages.map((msg) => (
-              <div key={msg.id} className={cn("flex gap-4 w-full max-w-3xl", msg.sender === "user" ? "ml-auto flex-row-reverse" : "mr-auto flex-row")}>
-                <Avatar className="h-8 w-8 shrink-0 mt-1">
-                  <AvatarFallback className={msg.sender === "assistant" ? "bg-emerald-600 text-white" : "bg-blue-600 text-white"}>
+              <div key={msg.id} className={cn("flex gap-4 w-full", msg.sender === "user" ? "ml-auto flex-row-reverse" : "mr-auto flex-row")}>
+                <Avatar className="h-8 w-8 shrink-0 mt-1 border dark:border-slate-800 shadow-sm">
+                  <AvatarFallback className={msg.sender === "assistant" ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300" : "bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-blue-300"}>
                     {msg.sender === "assistant" ? <Bot size={16}/> : <User size={16}/>}
                   </AvatarFallback>
                 </Avatar>
-                <div className={cn("rounded-2xl p-4 text-sm shadow-sm leading-relaxed", msg.sender === "user" ? "bg-blue-600 text-white rounded-tr-none" : "bg-white border text-slate-800 rounded-tl-none")}>
+
+                <div className={cn("max-w-[85%] rounded-2xl p-4 text-sm shadow-sm leading-relaxed", 
+                  msg.sender === "user" 
+                    ? "bg-blue-600 dark:bg-blue-700 text-white rounded-tr-sm" 
+                    : "bg-white dark:bg-slate-800 border dark:border-slate-700 text-slate-800 dark:text-slate-200 rounded-tl-sm"
+                )}>
                   <p className="whitespace-pre-wrap">{msg.content}</p> 
-                  <span className={cn("text-[10px] block mt-2 opacity-70", msg.sender === "user" ? "text-blue-100" : "text-slate-400")}>{msg.created_at}</span>
+                  <span className={cn("text-[10px] block mt-2 opacity-70 font-medium text-right", msg.sender === "user" ? "text-blue-100" : "text-slate-400 dark:text-slate-500")}>{msg.created_at}</span>
                 </div>
               </div>
             ))}
+
             {loading && (
-               <div className="flex gap-4 mr-auto max-w-3xl">
-                  <Avatar className="h-8 w-8 shrink-0"><AvatarFallback className="bg-emerald-600 text-white"><Bot size={16}/></AvatarFallback></Avatar>
-                  <div className="bg-white border rounded-2xl rounded-tl-none p-4 shadow-sm flex items-center gap-2">
-                    <Loader2 className="h-4 w-4 animate-spin text-slate-400" /><span className="text-xs text-slate-400">Escrevendo...</span>
+              <div className="flex gap-4 mr-auto max-w-3xl animate-pulse">
+                  <Avatar className="h-8 w-8 shrink-0"><AvatarFallback className="bg-emerald-100 dark:bg-emerald-950 text-emerald-600"><Bot size={16}/></AvatarFallback></Avatar>
+                  <div className="bg-white dark:bg-slate-800 border dark:border-slate-700 rounded-2xl rounded-tl-sm p-4 shadow-sm flex items-center gap-3">
+                    <Loader2 className="h-4 w-4 animate-spin text-slate-400 dark:text-slate-500" />
+                    <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">A IA está digitando...</span>
                   </div>
-               </div>
+              </div>
             )}
             <div ref={scrollRef} />
           </div>
         </div>
 
-        <div className="p-4 bg-white border-t">
-          <div className="flex gap-2 max-w-3xl mx-auto">
+        <div className="p-4 bg-white dark:bg-slate-900 border-t dark:border-slate-800 relative z-10">
+          <div className="flex gap-2 max-w-3xl mx-auto relative">
             <Input
-              placeholder={activeId ? "Digite sua pergunta..." : "Crie uma conversa para começar"}
+              placeholder={activeId ? "Envie uma mensagem para a IA..." : "Inicie uma conversa primeiro"}
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && handleSend()}
               disabled={loading || !activeId}
-              className="flex-1"
+              className="flex-1 pr-12 py-6 text-base shadow-sm dark:bg-slate-950 dark:border-slate-800 focus-visible:ring-blue-500"
             />
-            <Button onClick={handleSend} disabled={loading || !input.trim() || !activeId} className="bg-blue-600 hover:bg-blue-700">
-              <Send className="h-4 w-4" />
+            <Button 
+              onClick={handleSend} 
+              disabled={loading || !input.trim() || !activeId} 
+              className="absolute right-2 top-2 h-9 w-9 p-0 rounded-lg bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-500 transition-transform active:scale-95 disabled:opacity-50"
+            >
+              <Send className="h-4 w-4 text-white" />
             </Button>
           </div>
         </div>

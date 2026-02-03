@@ -1,9 +1,13 @@
-export { default } from "next-auth/middleware";
+import { withAuth } from "next-auth/middleware";
 
-// Define quais rotas são protegidas
+export default withAuth({
+  pages: {
+    signIn: "/",
+  },
+});
+
 export const config = {
   matcher: [
-    "/dashboard/:path*", // Protege tudo que estiver dentro de /dashboard
-    "/chat/:path*"       // Protege o chat
+    "/dashboard/:path*", 
   ],
 };
