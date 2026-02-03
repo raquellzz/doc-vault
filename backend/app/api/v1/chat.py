@@ -1,3 +1,4 @@
+import os
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
@@ -186,3 +187,24 @@ async def send_message(
         content=ai_msg.content,
         created_at=ai_msg.created_at.strftime("%H:%M")
     )
+
+@router.delete("/conversations/{conversation_id}")
+def delete_conversation(conversation_id: str, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """
+    Deleta uma conversa do banco.
+    """
+    try:
+        uuid_id = uuid.UUID(conversation_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="ID inválido.")
+
+    conversation = db.query(Conversation).filter(Conversation.id == uuid_id, Conversation.user_id == user.id).first()
+
+    if not conversation:
+        raise HTTPException(status_code=404, detail="Conversa não encontrada.")
+
+    db.delete(conversation)
+    
+    db.commit()
+
+    return {"status": "success", "id": conversation_id}
