@@ -26,7 +26,8 @@ def get_chat_response(
     # 1. Retriever com filtro
     vector_store = get_vector_store()
     retriever = vector_store.as_retriever(
-        search_kwargs={"k": 5, "filter": {"user_id": user_id}}
+        # search_kwargs={"k": 5, "filter": {"user_id": user_id}}
+         search_kwargs={"k": 5}
     )
 
     # 2. Formatar histórico
