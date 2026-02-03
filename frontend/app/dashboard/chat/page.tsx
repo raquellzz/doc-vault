@@ -5,9 +5,8 @@ import api from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Send, Bot, User, Loader2, Plus, MessageSquare } from "lucide-react";
+import { Send, Bot, User, Loader2, Plus, MessageSquare, Trash2, Pencil, Check, X } from "lucide-react";
 import { toast } from "sonner";
-import { cn } from "@/lib/utils";
 
 interface Message {
   id: string;
@@ -23,14 +22,16 @@ interface Conversation {
 }
 
 export default function ChatPage() {
-
   const [conversations, setConversations] = useState<Conversation[]>([]);
   const [activeId, setActiveId] = useState<string | null>(null);
-  
   const [messages, setMessages] = useState<Message[]>([]);
+
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editTitle, setEditTitle] = useState("");
 
   useEffect(() => {
     fetchConversations();
@@ -82,7 +83,6 @@ export default function ChatPage() {
 
   const handleSend = async () => {
     if (!input.trim() || !activeId) return;
-
     const userText = input;
     setInput("");
     setLoading(true);
@@ -107,14 +107,65 @@ export default function ChatPage() {
     }
   };
 
+  const handleDelete = async (e: React.MouseEvent, id: string) => {
+    e.stopPropagation();
+    
+    if (!confirm("Tem certeza que deseja apagar esta conversa?")) return;
+
+    try {
+      await api.delete(`/v1/conversations/${id}`);
+      const newList = conversations.filter(c => c.id !== id);
+      setConversations(newList);
+      toast.success("Conversa apagada.");
+
+      if (activeId === id) {
+        if (newList.length > 0) selectConversation(newList[0].id);
+        else {
+            setActiveId(null);
+            setMessages([]);
+        }
+      }
+    } catch (error) {
+      toast.error("Erro ao apagar conversa.");
+    }
+  };
+
+  const startEditing = (e: React.MouseEvent, chat: Conversation) => {
+    e.stopPropagation();
+    setEditingId(chat.id);
+    setEditTitle(chat.title);
+  };
+
+  const saveTitle = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (!editingId || !editTitle.trim()) return;
+
+    try {
+      await api.patch(`/v1/conversations/${editingId}`, { title: editTitle });
+      
+      setConversations(conversations.map(c => 
+        c.id === editingId ? { ...c, title: editTitle } : c
+      ));
+      
+      setEditingId(null);
+      toast.success("Título atualizado!");
+    } catch (error) {
+      toast.error("Erro ao renomear.");
+    }
+  };
+
+  const cancelEditing = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setEditingId(null);
+  };
+
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
 
   return (
     <div className="flex h-[calc(100vh-theme(spacing.24))] gap-4 max-w-7xl mx-auto p-4">
-      
-      <aside className="w-64 flex flex-col gap-4 bg-white border rounded-lg p-4 shadow-sm h-full">
+      <aside className="w-72 flex flex-col gap-4 bg-white border rounded-lg p-4 shadow-sm h-full">
         <Button onClick={handleNewChat} className="w-full bg-blue-600 hover:bg-blue-700 gap-2">
           <Plus size={16} /> Nova Conversa
         </Button>
@@ -125,34 +176,67 @@ export default function ChatPage() {
           )}
           
           {conversations.map((chat) => (
-            <button
+            <div
               key={chat.id}
-              onClick={() => selectConversation(chat.id)}
+              onClick={() => editingId !== chat.id && selectConversation(chat.id)}
               className={cn(
-                "w-full text-left p-3 rounded-md text-sm transition-colors flex items-center gap-3 border",
+                "group relative w-full p-3 rounded-md text-sm transition-colors border cursor-pointer flex items-center gap-2",
                 activeId === chat.id 
                   ? "bg-blue-50 border-blue-200 text-blue-700 font-medium" 
                   : "bg-slate-50 border-transparent hover:bg-slate-100 text-slate-600"
               )}
             >
-              <MessageSquare size={16} className="shrink-0" />
-              <span className="truncate">{chat.title || "Sem título"}</span>
-            </button>
+              <MessageSquare size={16} className="shrink-0 opacity-70" />
+
+              {editingId === chat.id ? (
+                <div className="flex items-center gap-1 w-full" onClick={(e) => e.stopPropagation()}>
+                  <Input 
+                    value={editTitle} 
+                    onChange={(e) => setEditTitle(e.target.value)}
+                    className="h-7 text-xs px-1 py-0 bg-white"
+                    autoFocus
+                  />
+                  <button onClick={saveTitle} className="text-emerald-600 hover:bg-emerald-100 p-1 rounded">
+                    <Check size={14} />
+                  </button>
+                  <button onClick={cancelEditing} className="text-red-500 hover:bg-red-100 p-1 rounded">
+                    <X size={14} />
+                  </button>
+                </div>
+              ) : (
+                <>
+                  <span className="truncate flex-1">{chat.title || "Sem título"}</span>
+                  <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity bg-inherit">
+                    <button 
+                      onClick={(e) => startEditing(e, chat)}
+                      className="p-1.5 text-slate-400 hover:text-blue-600 hover:bg-blue-100 rounded"
+                      title="Renomear"
+                    >
+                      <Pencil size={12} />
+                    </button>
+                    <button 
+                      onClick={(e) => handleDelete(e, chat.id)}
+                      className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-100 rounded"
+                      title="Apagar"
+                    >
+                      <Trash2 size={12} />
+                    </button>
+                  </div>
+                </>
+              )}
+            </div>
           ))}
         </div>
       </aside>
 
 
       <main className="flex-1 flex flex-col bg-slate-50 border rounded-lg shadow-sm h-full overflow-hidden">
-        
         <div className="p-4 border-b bg-white flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Bot className="text-emerald-600" /> 
             <span className="font-semibold text-slate-700">Assistente IA</span>
           </div>
-          {activeId && (
-            <span className="text-xs text-slate-400">ID: {activeId.slice(0,8)}...</span>
-          )}
+          {activeId && <span className="text-xs text-slate-400">ID: {activeId.slice(0,8)}</span>}
         </div>
 
         <div className="flex-1 overflow-y-auto p-6 bg-slate-50/50">
@@ -163,46 +247,24 @@ export default function ChatPage() {
                 <p>Selecione uma conversa ou inicie uma nova.</p>
               </div>
             )}
-
             {messages.map((msg) => (
-              <div
-                key={msg.id}
-                className={cn(
-                  "flex gap-4 w-full max-w-3xl",
-                  msg.sender === "user" ? "ml-auto flex-row-reverse" : "mr-auto flex-row"
-                )}
-              >
+              <div key={msg.id} className={cn("flex gap-4 w-full max-w-3xl", msg.sender === "user" ? "ml-auto flex-row-reverse" : "mr-auto flex-row")}>
                 <Avatar className="h-8 w-8 shrink-0 mt-1">
                   <AvatarFallback className={msg.sender === "assistant" ? "bg-emerald-600 text-white" : "bg-blue-600 text-white"}>
                     {msg.sender === "assistant" ? <Bot size={16}/> : <User size={16}/>}
                   </AvatarFallback>
                 </Avatar>
-
-                <div className={cn(
-                  "rounded-2xl p-4 text-sm shadow-sm leading-relaxed",
-                  msg.sender === "user" 
-                    ? "bg-blue-600 text-white rounded-tr-none" 
-                    : "bg-white border text-slate-800 rounded-tl-none"
-                )}>
+                <div className={cn("rounded-2xl p-4 text-sm shadow-sm leading-relaxed", msg.sender === "user" ? "bg-blue-600 text-white rounded-tr-none" : "bg-white border text-slate-800 rounded-tl-none")}>
                   <p className="whitespace-pre-wrap">{msg.content}</p> 
-                  <span className={cn(
-                    "text-[10px] block mt-2 opacity-70",
-                    msg.sender === "user" ? "text-blue-100" : "text-slate-400"
-                  )}>
-                    {msg.created_at}
-                  </span>
+                  <span className={cn("text-[10px] block mt-2 opacity-70", msg.sender === "user" ? "text-blue-100" : "text-slate-400")}>{msg.created_at}</span>
                 </div>
               </div>
             ))}
-
             {loading && (
                <div className="flex gap-4 mr-auto max-w-3xl">
-                  <Avatar className="h-8 w-8 shrink-0">
-                    <AvatarFallback className="bg-emerald-600 text-white"><Bot size={16}/></AvatarFallback>
-                  </Avatar>
+                  <Avatar className="h-8 w-8 shrink-0"><AvatarFallback className="bg-emerald-600 text-white"><Bot size={16}/></AvatarFallback></Avatar>
                   <div className="bg-white border rounded-2xl rounded-tl-none p-4 shadow-sm flex items-center gap-2">
-                    <Loader2 className="h-4 w-4 animate-spin text-slate-400" />
-                    <span className="text-xs text-slate-400">Escrevendo...</span>
+                    <Loader2 className="h-4 w-4 animate-spin text-slate-400" /><span className="text-xs text-slate-400">Escrevendo...</span>
                   </div>
                </div>
             )}
@@ -220,16 +282,11 @@ export default function ChatPage() {
               disabled={loading || !activeId}
               className="flex-1"
             />
-            <Button 
-              onClick={handleSend} 
-              disabled={loading || !input.trim() || !activeId} 
-              className="bg-blue-600 hover:bg-blue-700"
-            >
+            <Button onClick={handleSend} disabled={loading || !input.trim() || !activeId} className="bg-blue-600 hover:bg-blue-700">
               <Send className="h-4 w-4" />
             </Button>
           </div>
         </div>
-
       </main>
     </div>
   );

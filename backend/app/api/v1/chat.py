@@ -23,6 +23,9 @@ class ConversationResponse(BaseModel):
     title: str
     created_at: str
 
+class ConversationUpdate(BaseModel):
+    title: str
+
 class MessageRequest(BaseModel):
     content: str
 
@@ -208,3 +211,27 @@ def delete_conversation(conversation_id: str, db: Session = Depends(get_db), use
     db.commit()
 
     return {"status": "success", "id": conversation_id}
+
+@router.patch("/conversations/{conversation_id}")
+def update_conversation(
+    conversation_id: str,
+    update_data: ConversationUpdate,
+    db: Session = Depends(get_db),
+    current_user = Depends(get_current_user)
+):
+    """
+    Atualiza o título de uma conversa existente.
+    """
+    conversation = db.query(Conversation).filter(
+        Conversation.id == conversation_id,
+        Conversation.user_id == current_user.id
+    ).first()
+
+    if not conversation:
+        raise HTTPException(status_code=404, detail="Conversa não encontrada")
+
+    conversation.title = update_data.title
+    db.commit()
+    db.refresh(conversation)
+
+    return conversation
