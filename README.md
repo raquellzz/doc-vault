@@ -6,10 +6,10 @@
 **DocVault** é uma plataforma inteligente de gestão de documentos. O sistema permite que usuários façam upload de arquivos PDF e interajam com eles através de um chat alimentado por Inteligência Artificial (RAG), permitindo extrair informações, resumos e insights de forma conversacional.
 
 A aplicação conta com autenticação robusta via Keycloak, interface moderna e histórico de conversas persistente.
-
+<!-- 
 ## 📸 Screenshots
 
-*(Coloque aqui prints da sua tela de Login, Dashboard e Chat)*
+*(Coloque aqui prints da sua tela de Login, Dashboard e Chat)* -->
 
 ## 🚀 Tecnologias Utilizadas
 
