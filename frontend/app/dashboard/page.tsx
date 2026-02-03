@@ -26,12 +26,12 @@ export default async function Dashboard() {
             <h1 className="text-3xl font-bold text-slate-800">Olá, {session.user?.name} 👋</h1>
             <p className="text-slate-500">O que você deseja fazer hoje?</p>
           </div>
-          <Link href="/api/auth/signout">
+          {/* <Link href="/api/auth/signout">
             <Button variant="outline" className="text-red-600 hover:text-red-700 hover:bg-red-50">
               <LogOut className="mr-2 h-4 w-4" /> Sair
             </Button>
-          </Link>
-          {/* <LogoutButton /> */}
+          </Link> */}
+          <LogoutButton />
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">

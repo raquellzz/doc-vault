@@ -19,9 +19,9 @@ export const authOptions: AuthOptions = {
         token.refreshToken = account.refresh_token;
         token.idToken = account.id_token;
       }
-      if (trigger === "update" && session) {
-        return { ...token, ...session };
-      }
+      // if (trigger === "update" && session) {
+      //   return { ...token, ...session };
+      // }
       return token;
     },
     async session({ session, token }) {

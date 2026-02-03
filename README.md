@@ -31,8 +31,7 @@ A aplicação conta com autenticação robusta via Keycloak, interface moderna e
 
 ## ✨ Funcionalidades
 
-<!-- - [x] **Autenticação Segura:** Login, Logout (Federado) e Proteção de Rotas com Keycloak. -->
-- [x] **Autenticação Segura:** Login e Proteção de Rotas com Keycloak.
+- [x] **Autenticação Segura:** Login, Logout (Federado) e Proteção de Rotas com Keycloak.
 - [x] **Upload de Documentos:** Armazenamento seguro de arquivos PDF.
 - [x] **Gestão de Arquivos:** Listagem, Download e Exclusão de documentos.
 - [x] **Chat com IA:** Interface conversacional estilo ChatGPT.
