@@ -1,0 +1,783 @@
+Histórico Escolar - Emitido em: 31/01/2026 às 17:32
+PROGRAD - Pró-Reitoria de Graduação
+DACA - Diretoria de Administração e Controle Acadêmico
+Dados Pessoais
+Dados do Vínculo do Discente
+TECNOLOGIA DA INFORMAÇÃO/IMD - NATAL - BACHARELADO - PRESENCIAL - MT
+2025.1 / 2026.2
+-
+Curso:
+Currículo:
+Ano / Período Letivo Inicial:
+Forma de Ingresso:
+Prazo para Conclusão (Padrão / Máximo):
+Ano/Período de Integralização:
+02 - 2019.1
+Reconhecimento do Curso:
+Portaria Nº 539/2024 - SERES/MEC, 30/09/2024. D.O.U.: 01/10/2024
+Status:
+FORMANDO
+Período Letivo Atual:
+Prorrogações:
+Ano/Período Letivo de Saída:
+Tipo Saída:
+Data da Colação de Grau: -
+Perfil Inicial: 0
+9
+-
+-
+0 períodos letivos
+Trabalho de Conclusão de
+Curso:
+-
+MC: 8.2092
+MCN: 549.4086
+Índices Acadêmicos
+Ênfase:
+Nenhum
+Suspensões:
+Data de Saída:
+-
+DESENVOLVIMENTO DE SOFTWARE
+Data da Expedição do Diploma:
+2022.1
+SiSU
+-
+SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+UFRN - Universidade Federal do Rio Grande do Norte
+Campus Universitário BR-101 - Lagoa Nova - Natal/RN - CEP 59078-900
+Recredenciada conforme Portaria MEC Nº 311, de 15 de abril de 2013 e publicada no Diário Oficial da União,
+na seção 01, pág. 08, em 16/04/2013.
+Nome:     RAQUEL DA COSTA FREIRE
+Nacionalidade:     BRASILEIRA
+Nº do documento com órgão expedidor:     003227664, (ITEP/RN)
+Nº do CPF:     017.602.104-39
+Data de Nascimento:     03/10/2004
+Local de Nascimento:     NATAL/RN
+Matrícula:    20220041044
+Componentes Curriculares Cursados/Cursando
+Ano/Período
+Letivo
+Componente Curricular
+Turma
+Situação
+CH
+Freq %
+Média
+Hora
+Aula
+Nota
+Mín
+2020.2
+Estudante não habilitado ao ENADE em razão do calendário do ciclo
+avaliativo(Portaria nº 840/2018 MEC, art. 58, §2º,)
+--
+--
+ENADE
+0
+--
+---
+--
+--
+2022.1
+PENSAMENTO COMPUTACIONAL
+Dr. ANDRE MAURICIO CUNHA CAMPOS (60h)
+05
+APR
+DIM0123
+60
+100,0
+9.1
+e
+72
+8.4
+2022.1
+PRÁTICAS DE LEITURA E ESCRITA EM PORTUGUÊS I
+Dra. FLAVIA MAURICIA PEREIRA DE CARVALHO DIAS (30h)
+08
+APR
+IMD0017
+30
+100,0
+9.9
+36
+9.9
+2022.1
+PRÁTICAS DE LEITURA EM INGLÊS
+MSc. JULIANA GEIZY MARQUES DE SOUZA (30h)
+06
+APR
+IMD0018
+30
+94,0
+9.4
+36
+9.3
+2022.1
+TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE
+Dr. EUGENIO PACCELLI AGUIAR FREIRE (30h)
+01
+APR
+IMD0020
+30
+94,0
+7.3
+36
+7.0
+2022.1
+MATEMÁTICA ELEMENTAR
+MSc. ANTONIO IGOR SILVA DE OLIVEIRA (60h)
+08
+REP
+IMD1001
+60
+91,0
+4.7
+72
+3.5
+2022.1
+ANÁLISE COMBINATÓRIA
+MSc. IRITAN FERREIRA DOS SANTOS (10h), MSc. RAFAELA HORACINA SILVA
+ROCHA SOARES (20h)
+02
+APR
+IMD1002
+30
+100,0
+10.0
+36
+10.0
+2022.1
+GEOMETRIA EUCLIDIANA
+MSc. LOURENA KARIN DE MEDEIROS ROCHA (30h)
+02
+APRN
+IMD1003
+30
+94,0
+5.1
+36
+3.5
+2022.2
+PRÁTICAS DE LEITURA E ESCRITA EM PORTUGUÊS II
+Dr. LUCELIO DANTAS DE AQUINO (30h)
+02
+APRN
+IMD0027
+30
+100,0
+6.9
+36
+6.0
+2022.2
+AVALIAÇÃO DE SOFTWARE EDUCACIONAL
+Dra. ADJA FERREIRA DE ANDRADE (60h)
+01
+APR
+IMD0526
+60
+96,0
+10.0
+#
+72
+10.0
+2022.2
+MATEMÁTICA ELEMENTAR
+MSc. ANTONIO IGOR SILVA DE OLIVEIRA (60h)
+01
+APR
+IMD1001
+60
+97,0
+7.8
+72
+6.0
+2022.2
+INTRODUÇÃO ÀS TÉCNICAS DE PROGRAMAÇÃO
+Dr. FREDERICO ARAUJO DA SILVA LOPES (90h)
+05
+APR
+IMD1012
+90
+100,0
+8.6
+e
+108
+8.0
+2022.2
+ÉTICA E DADOS
+Dra. ISMENIA BLAVATSKY DE MAGALHÃES (60h)
+01
+APR
+IMD1112
+60
+100,0
+8.0
+*
+72
+7.6
+2023.1
+ESTRUTURA DE DADOS BÁSICAS I
+Dr. SELAN RODRIGUES DOS SANTOS (60h)
+01
+APR
+DIM0119
+60
+100,0
+8.0
+e
+72
+5.0
+2023.1
+LINGUAGEM DE PROGRAMAÇÃO I
+MSc. SIDEMAR FIDELES CEZARIO (60h)
+01
+APR
+DIM0120
+60
+86,0
+7.6
+e
+72
+5.8
+2023.1
+FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO I
+MSc. LOURENA KARIN DE MEDEIROS ROCHA (90h)
+01
+APR
+IMD0028
+90
+92,0
+7.1
+108
+4.6
+3
+Página
+1
+de
+Para verificar a autenticidade deste documento entre em  https://sigaa.ufrn.br/sigaa/public/autenticidade/tipo_documento.jsf informando
+a matrícula, data de emissão e o código de verificação:  72374178b2
+
+PROGRAD - Pró-Reitoria de Graduação
+DACA - Diretoria de Administração e Controle Acadêmico
+SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+UFRN - Universidade Federal do Rio Grande do Norte
+Campus Universitário BR-101 - Lagoa Nova - Natal/RN - CEP 59078-900
+Histórico Escolar - Emitido em: 31/01/2026 às 17:32
+RAQUEL DA COSTA FREIRE
+Nome:
+Matrícula: 20220041044
+Recredenciada conforme Portaria MEC Nº 311, de 15 de abril de 2013 e publicada no Diário Oficial da União,
+na seção 01, pág. 08, em 16/04/2013.
+Componentes Curriculares Cursados/Cursando
+Ano/Período
+Letivo
+Componente Curricular
+Turma
+Situação
+CH
+Freq %
+Média
+Hora
+Aula
+Nota
+Mín
+2023.1
+ARQUITETURA DE COMPUTADORES
+Dr. ROGER KREUTZ IMMICH (60h)
+05
+APR
+IMD0121
+60
+100,0
+7.0
+72
+5.0
+2023.1
+SEMINÁRIOS EM BIOINFORMÁTICA
+Dr. RENAN CIPRIANO MOIOLI (15h), Dr. TETSU SAKAMOTO (15h)
+01
+APRN
+IMD0605
+30
+100,0
+5.0
+*
+36
+3.3
+2023.2
+ESTRUTURAS DE DADOS BÁSICAS II
+MSc. SIDEMAR FIDELES CEZARIO (60h)
+02
+REP
+DIM0117
+60
+93,0
+3.0
+e
+72
+0.0
+2023.2
+CÁLCULO DIFERENCIAL E INTEGRAL I
+MSc. ANTONIO IGOR SILVA DE OLIVEIRA (90h)
+01
+APR
+IMD0024
+90
+98,0
+8.3
+108
+6.8
+2023.2
+FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO II
+Dr. JOAO MARCOS DE ALMEIDA (30h), Dr. PATRICK CESAR ALVES TERREMATTE
+(60h)
+01
+APR
+IMD0038
+90
+92,0
+7.3
+108
+5.6
+2023.2
+LINGUAGEM DE PROGRAMAÇÃO II
+Dr. FREDERICO ARAUJO DA SILVA LOPES (60h)
+02
+APR
+IMD0040
+60
+96,0
+9.0
+72
+8.3
+2024.1
+ESTRUTURAS DE DADOS BÁSICAS II
+Dr. Jorge Estefano de Santana Souza (60h)
+03
+APR
+DIM0117
+60
+100,0
+8.7
+e
+72
+7.8
+2024.1
+BOAS PRÁTICAS DE PROGRAMAÇÃO
+MSc. LUCAS RODRIGUES SILVA (30h)
+02
+APR
+DIM0501
+30
+100,0
+8.7
+36
+8.0
+2024.1
+PLANEJAMENTO E GERENCIAMENTO DE PROJETOS
+MSc. LUCAS RODRIGUES SILVA (18h), Dra. INGRIDY MARINA PIERRE BARBALHO
+(37h), MSc. MARIANNE BATISTA DINIZ DA SILVA (5h)
+01
+APR
+DIM0518
+60
+100,0
+8.5
+*
+72
+8.5
+2024.1
+SISTEMAS OPERACIONAIS
+MSc. TELES DE SALES BEZERRA (60h)
+01
+APR
+IMD0036
+60
+100,0
+8.4
+72
+7.5
+2024.1
+REDES DE COMPUTADORES
+Esp. FRANCIMAR CARLOS DE MACEDO (60h)
+01
+APR
+IMD0043
+60
+100,0
+7.1
+72
+6.1
+2024.1
+TÓPICOS ESPECIAIS EM PRODUÇÃO DE JOGOS DIGITAIS E
+Dr. CHARLES ANDRYE GALVAO MADEIRA (15h), Dr. ALYSON MATHEUS DE
+CARVALHO SOUZA (15h)
+01
+TRANC
+IMD0284
+30
+--
+--
+36
+--
+2024.1
+FUNDAMENTOS DE JOGOS DIGITAIS
+Dr. ALYSON MATHEUS DE CARVALHO SOUZA (60h)
+02
+APR
+IMD0521
+60
+100,0
+8.0
+*
+72
+5.0
+2024.2
+LÓGICA APLICADA A ENGENHARIA DE SOFTWARE
+Dr. MARCEL VINICIUS MEDEIROS OLIVEIRA (60h)
+01
+APR
+DIM0505
+60
+88,0
+8.9
+72
+8.5
+2024.2
+DESENVOLVIMENTO DE SISTEMAS WEB I
+Dr. FERNANDO MARQUES FIGUEIRA FILHO (60h)
+01
+APR
+DIM0546
+60
+100,0
+8.6
+72
+8.0
+2024.2
+VIVÊNCIA NO ENSINO SUPERIOR
+Dra. ISMENIA BLAVATSKY DE MAGALHÃES (30h)
+5
+APR
+ECT3108
+30
+82,0
+10.0
+#
+36
+10.0
+2024.2
+PROBABILIDADE
+Dra. ISMENIA BLAVATSKY DE MAGALHÃES (60h)
+02
+APR
+IMD0033
+60
+100,0
+8.5
+72
+7.5
+2024.2
+VETORES E GEOMETRIA ANALÍTICA
+Dr. SAMYR SILVA BEZERRA JACOME (60h)
+02
+APR
+IMD0034
+60
+97,0
+9.1
+72
+8.4
+2024.2
+LEVANTAMENTO E MODELAGEM DE REQUISITOS
+Dra. ISABEL DILLMANN NUNES (60h)
+01
+APR
+IMD0503
+60
+91,0
+8.5
+*
+72
+8.0
+2025.1
+BANCO DE DADOS
+Dr. MARCEL VINICIUS MEDEIROS OLIVEIRA (90h)
+01
+APR
+DIM0125
+90
+83,0
+7.5
+108
+5.8
+2025.1
+TESTE DE SOFTWARE I
+Dra. ROBERTA DE SOUZA COELHO (60h)
+02
+APR
+DIM0507
+60
+83,0
+9.4
+72
+9.0
+2025.1
+MÉTODOS FORMAIS DE ENGENHARIA DE SOFTWARE
+Dr. MARCEL VINICIUS MEDEIROS OLIVEIRA (60h)
+01
+APR
+DIM0516
+60
+91,0
+6.7
+72
+5.0
+2025.1
+ENGENHARIA DE LINGUAGENS
+Dr. UMBERTO SOUZA DA COSTA (60h)
+02
+APR
+DIM0548
+60
+78,0
+6.2
+72
+4.5
+2025.2
+ANÁLISE E PROJETO ORIENTADO A OBJETOS
+Dr. LEONARDO CUNHA DE MIRANDA (60h)
+01
+APR
+DIM0504
+60
+88,0
+8.0
+72
+6.6
+2025.2
+PROJETO DE INTERFACES DE USUÁRIO
+Dr. JAIR CAVALCANTI LEITE (60h)
+01
+APR
+DIM0508
+60
+86,0
+8.9
+72
+8.8
+2025.2
+TESTE DE SOFTWARE II
+Dra. ROBERTA DE SOUZA COELHO (60h)
+01
+APR
+DIM0512
+60
+88,0
+9.2
+*
+72
+7.5
+2025.2
+DESENVOLVIMENTO DE SISTEMAS WEB II
+Esp. JERFFESON GOMES DUTRA (60h)
+01
+APR
+DIM0547
+60
+91,0
+8.4
+72
+8.3
+2025.2
+GRAFOS
+Dr. MATHEUS DA SILVA MENEZES (60h)
+01
+APR
+DIM0549
+60
+91,0
+10.0
+72
+10.0
+2026.1
+PROGRAMAÇÃO CONCORRENTE
+Dr. NELIO ALESSANDRO AZEVEDO CACHO (60h)
+01
+MATR
+DIM0124
+60
+--
+--
+72
+--
+2026.1
+PROJETO DETALHADO DE SOFTWARE
+Dr. UIRA KULESZA (60h)
+01
+MATR
+DIM0138
+60
+--
+--
+72
+--
+2026.1
+ENGENHARIA DE REQUISITOS
+Dra. MARCIA JACYNTHA NUNES RODRIGUES LUCENA (60h)
+02
+MATR
+DIM0511
+60
+--
+--
+72
+--
+2026.1
+PROGRAMAÇÃO DISTRIBUÍDA
+Dr. NELIO ALESSANDRO AZEVEDO CACHO (60h)
+02
+MATR
+DIM0614
+60
+--
+--
+72
+--
+Legenda
+* Comp. Optativo
+e Comp. Equivalente a Obrig.
+& Comp. Equivalente a Optativo
+# Comp. Eletivo
+@ Ativ. Obrigatória
+§ Ativ. Optativa
+% Comp. Equivalente a Compl.
+SIGLA
+SIGNIFICADO
+SITUAÇÃO
+APR
+Aprovado por média
+Aluno aprovado com média maior ou igual a 6,0.
+3
+Página
+2
+de
+Para verificar a autenticidade deste documento entre em  https://sigaa.ufrn.br/sigaa/public/autenticidade/tipo_documento.jsf informando
+a matrícula, data de emissão e o código de verificação:  72374178b2
+
+PROGRAD - Pró-Reitoria de Graduação
+DACA - Diretoria de Administração e Controle Acadêmico
+SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+UFRN - Universidade Federal do Rio Grande do Norte
+Campus Universitário BR-101 - Lagoa Nova - Natal/RN - CEP 59078-900
+Histórico Escolar - Emitido em: 31/01/2026 às 17:32
+RAQUEL DA COSTA FREIRE
+Nome:
+Matrícula: 20220041044
+Recredenciada conforme Portaria MEC Nº 311, de 15 de abril de 2013 e publicada no Diário Oficial da União,
+na seção 01, pág. 08, em 16/04/2013.
+Observações:
+ - Realizado o cadastro de ênfase conforme o processo 23077.004352/2025-11. Providenciado em 10/02/2025.
+Componentes Curriculares Obrigatórios Pendentes:5
+Componente Curricular
+CH
+Código
+  PROJETO DETALHADO DE SOFTWARE
+60 h
+DIM0138
+Matriculado
+  PROGRAMAÇÃO CONCORRENTE
+60 h
+DIM0124
+Matriculado
+  ENGENHARIA DE REQUISITOS
+60 h
+DIM0511
+Matriculado
+  PROGRAMAÇÃO DISTRIBUÍDA
+60 h
+DIM0614
+Matriculado
+  ENADE CONCLUINTE PENDENTE
+0 h
+ENADE
+Equivalências:
+Cumpriu IMD1004 - PENSAMENTO COMPUTACIONAL (60h) através de DIM0123 - PENSAMENTO COMPUTACIONAL (60h)
+Cumpriu IMD0012 - INTRODUÇÃO ÀS TÉCNICAS DE PROGRAMAÇÃO (90h) através de IMD1012 - INTRODUÇÃO ÀS TÉCNICAS DE PROGRAMAÇÃO (90h)
+Cumpriu IMD0029 - ESTRUTURA DE DADOS BÁSICAS I (60h) através de DIM0119 - ESTRUTURA DE DADOS BÁSICAS I (60h)
+Cumpriu IMD0030 - LINGUAGEM DE PROGRAMAÇÃO I (60h) através de DIM0120 - LINGUAGEM DE PROGRAMAÇÃO I (60h)
+Cumpriu IMD0039 - ESTRUTURAS DE DADOS BÁSICAS II (60h) através de DIM0117 - ESTRUTURAS DE DADOS BÁSICAS II (60h)
+Optativos
+Total
+Obrigatórias
+Exigido
+Integralizado
+Pendente
+360 h
+420 h
+0 h
+2600 h
+2442 h
+240 h
+240 h
+1860 h
+2100 h
+Complementares
+140 h
+162 h
+0 h
+Carga Horária Integralizada/Pendente
+Legenda
+APRN
+Aprovado por nota mínima
+Aluno com média entre 5,0 e 6,0 e nota mínima superior a 3,0 após a substituição.
+CANC
+Cancelado
+Matrícula em turma cancelada.
+DISP
+Dispensado
+Aproveitou o componente e foi dispensado.
+MATR
+Matriculado
+Matriculado na turma.
+REC
+Em recuperação
+Aluno que fará reposição.
+REP
+Reprovado por média
+Aluno com média inferior a 5,0.
+REPF
+Reprovado por falta
+Reprovado por não atender os critérios de assiduidade.
+REPMF
+Reprovado por média e falta
+Aluno com média inferior a 5,0 além de não atender aos critérios de assiduidade.
+REPN
+Reprovado por nota mínima
+Aluno com média entre 5,0 e 6,0 e nota mínima inferior a 3,0 após a substituição.
+REPNF
+Reprovado por nota e falta
+Aluno com média entre 5,0 e 6,0 e nota mínima inferior a 3,0 após a substituição além de não atender aos critérios de assiduidade.
+TRANC
+Trancado
+Matrícula em turma trancada.
+TRANS
+Transferido
+Fez o componente em outra instituição e aproveitou na Instituição.
+INCORP
+Incorporado
+Fez o componente durante mobilidade estudantil.
+CUMP
+Cumpriu
+Fez o componente na UFRN em outro curso anterior e aproveitou no curso atual.
+Atenção, agora o histórico possui uma verificação automática de autenticidade e consistência, sendo portanto dispensável a assinatura da coordenação do curso
+ou DACA. Favor, ler instruções no rodapé.
+3
+Página
+3
+de
+Para verificar a autenticidade deste documento entre em  https://sigaa.ufrn.br/sigaa/public/autenticidade/tipo_documento.jsf informando
+a matrícula, data de emissão e o código de verificação:  72374178b2
+
+
