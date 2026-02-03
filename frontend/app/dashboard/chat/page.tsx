@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Send, Bot, User, Loader2, Plus, MessageSquare, Trash2, Pencil, Check, X } from "lucide-react";
 import { toast } from "sonner";
+import { cn } from "@/lib/utils";
 
 interface Message {
   id: string;
@@ -107,18 +108,38 @@ export default function ChatPage() {
     }
   };
 
-  const handleDelete = async (e: React.MouseEvent, id: string) => {
-    e.stopPropagation();
+  // const handleDelete = async (e: React.MouseEvent, id: string) => {
+  //   e.stopPropagation();
     
-    if (!confirm("Tem certeza que deseja apagar esta conversa?")) return;
+  //   if (!confirm("Tem certeza que deseja apagar esta conversa?")) return;
 
+  //   try {
+  //     await api.delete(`/v1/conversations/${id}`);
+  //     const newList = conversations.filter(c => c.id !== id);
+  //     setConversations(newList);
+  //     toast.success("Conversa apagada.");
+
+  //     if (activeId === id) {
+  //       if (newList.length > 0) selectConversation(newList[0].id);
+  //       else {
+  //           setActiveId(null);
+  //           setMessages([]);
+  //       }
+  //     }
+  //   } catch (error) {
+  //     toast.error("Erro ao apagar conversa.");
+  //   }
+  // };
+
+  const executeDelete = async (idToDelete: string) => {
     try {
-      await api.delete(`/v1/conversations/${id}`);
-      const newList = conversations.filter(c => c.id !== id);
+      await api.delete(`/v1/conversations/${idToDelete}`);
+      
+      const newList = conversations.filter(c => c.id !== idToDelete);
       setConversations(newList);
-      toast.success("Conversa apagada.");
+      toast.success("Conversa apagada com sucesso.");
 
-      if (activeId === id) {
+      if (activeId === idToDelete) {
         if (newList.length > 0) selectConversation(newList[0].id);
         else {
             setActiveId(null);
@@ -128,6 +149,30 @@ export default function ChatPage() {
     } catch (error) {
       toast.error("Erro ao apagar conversa.");
     }
+  };
+
+  const handleDeleteRequest = (e: React.MouseEvent, id: string) => {
+    e.stopPropagation();
+
+    toast("Tem certeza absoluta?", {
+      description: "Essa ação apagará todo o histórico dessa conversa permanentemente.",
+      classNames: {
+        toast: "bg-white border-2 border-red-100 shadow-2xl p-6 w-full max-w-md",
+        title: "text-red-600 text-lg font-bold items-center gap-2",
+        description: "text-slate-100 text-base mt-2 font-medium",
+        actionButton: "bg-red-600 hover:bg-red-700 text-white font-bold h-10 px-6 rounded-md",
+        cancelButton: "bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium h-10 px-4 rounded-md",
+      },
+      action: {
+        label: "SIM, EXCLUIR",
+        onClick: () => executeDelete(id),
+      },
+      cancel: {
+        label: "Cancelar",
+        onClick: () => {},
+      },
+      duration: 12000,
+    });
   };
 
   const startEditing = (e: React.MouseEvent, chat: Conversation) => {
@@ -215,7 +260,7 @@ export default function ChatPage() {
                       <Pencil size={12} />
                     </button>
                     <button 
-                      onClick={(e) => handleDelete(e, chat.id)}
+                      onClick={(e) => handleDeleteRequest(e, chat.id)}
                       className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-100 rounded"
                       title="Apagar"
                     >
