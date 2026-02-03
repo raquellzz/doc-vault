@@ -10,7 +10,7 @@ export const authOptions: AuthOptions = {
     }),
   ],
   session: {
-    strategy: "jwt", // Força o uso de cookie (importante!)
+    strategy: "jwt",
   },
   callbacks: {
     async jwt({ token, account, trigger, session }) {
@@ -30,11 +30,6 @@ export const authOptions: AuthOptions = {
       return session;
     },
   },
-  // events: {
-  //   async signOut({ token }) {
-  //     console.log("Usuário deslogou");
-  //   },
-  // },
 };
 
 const handler = NextAuth(authOptions);

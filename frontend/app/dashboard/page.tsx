@@ -31,12 +31,11 @@ export default async function Dashboard() {
               <LogOut className="mr-2 h-4 w-4" /> Sair
             </Button>
           </Link>
+          {/* <LogoutButton /> */}
         </div>
 
-        {/* Grid de Opções */}
         <div className="grid md:grid-cols-2 gap-6">
           
-          {/* Card Documentos */}
           <Link href="/dashboard/documents" className="block group">
             <Card className="h-full hover:shadow-lg transition-shadow border-slate-200 cursor-pointer group-hover:border-blue-500">
               <CardHeader>
@@ -55,7 +54,6 @@ export default async function Dashboard() {
             </Card>
           </Link>
 
-          {/* Card Chat */}
           <Link href="/dashboard/chat" className="block group">
             <Card className="h-full hover:shadow-lg transition-shadow border-slate-200 cursor-pointer group-hover:border-emerald-500">
               <CardHeader>

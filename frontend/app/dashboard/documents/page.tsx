@@ -55,7 +55,6 @@ export default function DocumentsPage() {
         headers: { "Content-Type": "multipart/form-data" },
       });
       
-      // MUDANÇA: Sintaxe do Sonner
       toast.success("Upload iniciado com sucesso!"); 
       
       setOpenDialog(false);
@@ -67,7 +66,6 @@ export default function DocumentsPage() {
   };
 
   const handleDelete = async (id: string) => {
-    // Usando window.confirm nativo por simplicidade
     if (!confirm("Tem certeza que deseja apagar?")) return;
     try {
       await api.delete(`/v1/documents/${id}`);

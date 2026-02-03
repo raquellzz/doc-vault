@@ -8,25 +8,19 @@ export function LogoutButton() {
   const { data: session } = useSession();
 
   const handleLogout = async () => {
-    // Debug: Vamos ver o que está acontecendo
-    // @ts-ignore
     console.log("Tentando logout. ID Token disponível?", !!session?.idToken);
-    // @ts-ignore
     console.log("Token:", session?.idToken ? session.idToken.substring(0, 10) + "..." : "NENHUM");
 
     const keycloakUrl = process.env.NEXT_PUBLIC_KEYCLOAK_ISSUER || "http://localhost:8080/realms/DocVault";
     const logoutUrl = `${keycloakUrl}/protocol/openid-connect/logout`;
     const redirectUri = window.location.origin; 
 
-    // @ts-ignore
     const idToken = session?.idToken;
 
-    // Se tiver token, usa a url completa. Se não, usa fallback.
     if (idToken) {
         const fullUrl = `${logoutUrl}?post_logout_redirect_uri=${encodeURIComponent(redirectUri)}&id_token_hint=${idToken}`;
         await signOut({ callbackUrl: fullUrl });
     } else {
-        // Fallback: Tenta deslogar apenas localmente se o token sumiu
         console.warn("Sem idToken para logout federado. Deslogando apenas localmente.");
         await signOut({ callbackUrl: "/" });
     }
