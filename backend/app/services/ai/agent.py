@@ -1,8 +1,7 @@
-from typing import List, Dict, Any
+from typing import List, Dict
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
 
 from app.core.config import settings
 from app.services.ai.vector import get_vector_store
